@@ -15,8 +15,8 @@
      (function (){
        var msalConfig = {
 	   auth: {
-	     clientId: '97e63c85-08cb-4587-8f88-ed65955cc83d',
-	     authority: 'https://login.microsoftonline.com/76f66a0b-386f-4e01-b8b1-7ef54f95456c'
+	     clientId: 'be99ee41-bcde-4803-8806-4c1142bbd1a3',
+	     authority: 'https://login.microsoftonline.com/84a9843b-0b29-4729-ba8a-8155cf55c7ae'
 	   },
 	   cache: {
 	     cacheLocation: 'localStorage',
@@ -197,7 +197,7 @@ async function fetchJSON(url, options = {}) {
 (async function main() {
 
     // Add your BOT ID below 
-    var theURL = "https://a58c67d995c4eaa1b784e96746d9c6.1b.environment.api.powerplatform.com/powervirtualagents/botsbyschema/cr579_customerDemoBot/directline/token?api-version=2022-03-01-preview" // you can find the token URL via the mobile app channel configuration
+    var theURL = "https://copilotstudio.microsoft.com/environments/Default-84a9843b-0b29-4729-ba8a-8155cf55c7ae/bots/cr39d_citiation/webchat?__version__=2" // you can find the token URL via the mobile app channel configuration
      var userdetails = clientApplication.getAccount();
 	var userId = clientApplication.account?.accountIdentifier != null ? 
 					("You-customized-prefix" + clientApplication.account.accountIdentifier).substr(0, 64) 
